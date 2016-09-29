@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.BLL", "SM.BLL\SM.BLL.csproj", "{2153B40D-A7B3-474F-87D3-637F2F07BA8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.BusinessObjects", "SM.BusinessObjects\SM.BusinessObjects.csproj", "{0A8E15C8-F737-46B1-9722-5152D96CC188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.DAL", "SM.DAL\SM.DAL.csproj", "{6B8ACFE4-B1CF-4122-8C99-D937A3482223}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SMSWeb(1)", "http://localhost:29880", "{F88C2CFF-2373-4E87-B7B7-41ED3A5F502E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{0a8e15c8-f737-46b1-9722-5152d96cc188}|SM.BusinessObjects.dll;{2153b40d-a7b3-474f-87d3-637f2f07ba8e}|SM.BLL.dll;{6B8ACFE4-B1CF-4122-8C99-D937A3482223}|SM.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_29880"
+		Debug.AspNetCompiler.PhysicalPath = "SMSWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_29880\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_29880"
+		Release.AspNetCompiler.PhysicalPath = "SMSWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_29880\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "SMSWeb\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2153B40D-A7B3-474F-87D3-637F2F07BA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2153B40D-A7B3-474F-87D3-637F2F07BA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2153B40D-A7B3-474F-87D3-637F2F07BA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2153B40D-A7B3-474F-87D3-637F2F07BA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8E15C8-F737-46B1-9722-5152D96CC188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8E15C8-F737-46B1-9722-5152D96CC188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8E15C8-F737-46B1-9722-5152D96CC188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8E15C8-F737-46B1-9722-5152D96CC188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8ACFE4-B1CF-4122-8C99-D937A3482223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8ACFE4-B1CF-4122-8C99-D937A3482223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8ACFE4-B1CF-4122-8C99-D937A3482223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8ACFE4-B1CF-4122-8C99-D937A3482223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88C2CFF-2373-4E87-B7B7-41ED3A5F502E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88C2CFF-2373-4E87-B7B7-41ED3A5F502E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88C2CFF-2373-4E87-B7B7-41ED3A5F502E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88C2CFF-2373-4E87-B7B7-41ED3A5F502E}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

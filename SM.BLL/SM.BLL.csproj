@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2153B40D-A7B3-474F-87D3-637F2F07BA8E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SM.BLL</RootNamespace>
+    <AssemblyName>SM.BLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssignClassBLL.cs" />
+    <Compile Include="AssignStudentBLL.cs" />
+    <Compile Include="AssignSubjectBLL.cs" />
+    <Compile Include="ClassBLL.cs" />
+    <Compile Include="DailyAttendanceBLL.cs" />
+    <Compile Include="DailyAttendanceDetailsBLL.cs" />
+    <Compile Include="DesignationBLL.cs" />
+    <Compile Include="DistrictBLL.cs" />
+    <Compile Include="FloorBLL.cs" />
+    <Compile Include="GenderBLL.cs" />
+    <Compile Include="GroupBLL.cs" />
+    <Compile Include="InstitudeInformationBLL.cs" />
+    <Compile Include="ModuleBLL.cs" />
+    <Compile Include="OccupationBLL.cs" />
+    <Compile Include="PermittedFormBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SectionBLL.cs" />
+    <Compile Include="SessionYearBLL.cs" />
+    <Compile Include="StudentAdmissionBLL.cs" />
+    <Compile Include="StudentGuardianDetailsBLL.cs" />
+    <Compile Include="StudentPreviousInstitudeBLL.cs" />
+    <Compile Include="SubjectBLL.cs" />
+    <Compile Include="TeacherBLL.cs" />
+    <Compile Include="UserBLL.cs" />
+    <Compile Include="UserGroupBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SM.BusinessObjects\SM.BusinessObjects.csproj">
+      <Project>{0a8e15c8-f737-46b1-9722-5152d96cc188}</Project>
+      <Name>SM.BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SM.DAL\SM.DAL.csproj">
+      <Project>{6b8acfe4-b1cf-4122-8c99-d937a3482223}</Project>
+      <Name>SM.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
