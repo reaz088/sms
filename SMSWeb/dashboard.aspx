@@ -105,6 +105,10 @@
                   <p class="comment-dash">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.
+
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
                   </p>
                   <small class="comment-date-dash">Today 5:10pm 24/03/2015</small>
                   <hr/>
