@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
+     <style type="text/css" runat="server">
 
      /*Bootstrap*/
      @import '<%= ResolveUrl("~/vendor/bootstrap-3.3.2-dist/css/bootstrap.min.css")%>';
@@ -22,7 +22,7 @@
 
      @import '<%= ResolveUrl("~/css/admin/index.css")%>';
 
-     
+    </style>
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/angular-1.5.0/angular.min.js"></script>
 
