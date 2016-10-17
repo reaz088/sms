@@ -10,6 +10,18 @@
     <title></title>
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
+
+     /*Bootstrap*/
+     @import '<%= ResolveUrl("~/vendor/bootstrap-3.3.2-dist/css/bootstrap.min.css")%>';
+
+     @import '<%= ResolveUrl("~/css/admin/default.css")%>';
+
+     @import '<%= ResolveUrl("~/css/admin/index.css")%>';
+
+     @import '<%= ResolveUrl("~/vendor/angular-material/css/angular-material.css")%>';
+
+     @import '<%= ResolveUrl("~/css/admin/index.css")%>';
+
      
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/angular-1.5.0/angular.min.js"></script>
