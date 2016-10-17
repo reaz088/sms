@@ -58,6 +58,7 @@
     <Compile Include="DailyAttendanceDetailsBLL.cs" />
     <Compile Include="DesignationBLL.cs" />
     <Compile Include="DistrictBLL.cs" />
+    <Compile Include="ExamBLL.cs" />
     <Compile Include="FloorBLL.cs" />
     <Compile Include="GenderBLL.cs" />
     <Compile Include="GroupBLL.cs" />

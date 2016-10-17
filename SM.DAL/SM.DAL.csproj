@@ -64,6 +64,7 @@
     <Compile Include="DbHelper.cs" />
     <Compile Include="DesignationDAL.cs" />
     <Compile Include="DistrictDAL.cs" />
+    <Compile Include="ExamDAL.cs" />
     <Compile Include="FloorDAL.cs" />
     <Compile Include="GenderDAL.cs" />
     <Compile Include="GroupDAL.cs" />

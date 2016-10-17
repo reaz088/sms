@@ -58,6 +58,7 @@
     <Compile Include="DailyAttendanceDetails.cs" />
     <Compile Include="Designation.cs" />
     <Compile Include="District.cs" />
+    <Compile Include="Exam.cs" />
     <Compile Include="Floor.cs" />
     <Compile Include="Gender.cs" />
     <Compile Include="Group.cs" />
