@@ -8,7 +8,7 @@ using System.Text;
 
 namespace SM.BLL
 {
-    class ExamBLL
+    public class ExamBLL
     {
         private ExamDAL _examDAL;
 

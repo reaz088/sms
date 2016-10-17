@@ -1,11 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/admin.master" AutoEventWireup="true" CodeFile="Occupation.aspx.cs" Inherits="BasicSetup_Occupation" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/admin.master" AutoEventWireup="true" CodeFile="ExamEntry.aspx.cs" Inherits="BasicSetup_ExamEntry" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-                    
-        
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-     <div id="dashboard-con" data-ng-controller="occupationCtrl as vm" class="container-fluid">
+     <div id="dashboard-con" data-ng-controller="examEntryCtrl as vm" class="container-fluid">
             <div class="row">
               <div class="col-md-12 dashboard-left-cell">
                 <div class="admin-content-con">
@@ -24,8 +22,8 @@
                           <div class="x-box-body">
                
                               <md-input-container class="md-block">
-                                <label>Occupation Name</label>
-                                <input type="text" data-ng-model="vm.objOccupation.occupation_name"/>
+                                <label>Exam Name</label>
+                                <input type="text" data-ng-model="vm.objExamEntry.exam_name"/>
                              </md-input-container>
 
                               <div class="x-box-foot">
@@ -47,14 +45,14 @@
                                 <thead>
                                   <tr>
                                     <th>ID</th>
-                                    <th>Occupation</th>
+                                    <th>Exam Name</th>
                                     <th>actions</th>
                                   </tr>
                                 </thead>
                                 <tbody>
-                                  <tr data-ng-repeat="d in vm.occupations">
-                                    <td>{{d.occupation_id}}</td>
-                                    <td>{{d.occupation_name}}</td>
+                                  <tr data-ng-repeat="d in vm.exams">
+                                    <td>{{d.exam_id}}</td>
+                                    <td>{{d.exam_name}}</td>
 
                                     <td>
                                       <a class="btn btn-xs btn-warning" href="#" data-ng-click="vm.view(d)" role="button">edit</a>
@@ -76,7 +74,8 @@
 
              
             </div>
-            <script src="occupation.js"></script>
+            <script src="examEntry.js"></script>
           </div>
+
 </asp:Content>
 
