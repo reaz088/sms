@@ -107,7 +107,7 @@
                     tempor incididunt ut labore et dolore magna aliqua.
 
 
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Change by github
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Change by scubesoftware
                     tempor incididunt ut labore et dolore magna aliqua.
                   </p>
                   <small class="comment-date-dash">Today 5:10pm 24/03/2015</small>
