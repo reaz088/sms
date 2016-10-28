@@ -81,17 +81,17 @@
                 <span class="label label-success pull-right hidden-xs hidden-sm">20</span>
               </a>
               <ul class="collapse collapseable" id="collapse-post">
-                <li><a href="BasicSetup/InstitudeInformation.aspx">Institude Info</a></li> 
-                <li><a href="BasicSetup/District.aspx">District</a></li>
-                <li><a href="BasicSetup/SessionYear.aspx">Session Year</a></li>
+                <li><a href="InstitudeInformation.aspx">Institude Info</a></li> 
+                <li><a href="District.aspx">District</a></li>
+                <li><a href="SessionYear.aspx">Session Year</a></li>
                 <li><a href="Class.aspx">Class</a></li>
-                <li><a href="BasicSetup/Section.aspx">Section</a></li>
-                <li><a href="BasicSetup/Group.aspx">Group</a></li>
-                <li><a href="BasicSetup/Subject.aspx">Subject</a></li>
-                <li><a href="BasicSetup/District.aspx">District</a></li>
-                <li><a href="BasicSetup/Designation.aspx">Designation</a></li>
-                <li><a href="BasicSetup/Teacher.aspx">Teacher</a></li>
-                <li><a href="BasicSetup/StudentAdmission.aspx">Student</a></li>
+                <li><a href="Section.aspx">Section</a></li>
+                <li><a href="Group.aspx">Group</a></li>
+                <li><a href="Subject.aspx">Subject</a></li>
+                <li><a href="District.aspx">District</a></li>
+                <li><a href="Designation.aspx">Designation</a></li>
+                <li><a href="Teacher.aspx">Teacher</a></li>
+                <li><a href="StudentAdmission.aspx">Student</a></li>
                
               </ul>
             </li>

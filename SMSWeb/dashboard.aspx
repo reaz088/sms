@@ -25,6 +25,7 @@
                     </thead>
                     <tbody>
                       <tr>
+                          <a href="dashboard.aspx">dashboard.aspx</a>
                         <td>My first post of many to come...</td>
                         <td>20</td>
                         <td>2 days ago</td>
